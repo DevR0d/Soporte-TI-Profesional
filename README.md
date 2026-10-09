@@ -91,3 +91,8 @@ Si ya tenías `Mantenimiento_Interactivo_TI` de la primera versión, abre el **A
 5. Ejecuta simulación en el motor de mantenimiento y verifica que no haya cambios. Luego prueba módulos seguros y controles UAC en entorno controlado.
 
 Para sintaxis de comandos y solución de bloqueos consulta **`GUIA_RAPIDA.md`**.
+
+## 📜 Licencia
+
+Este proyecto está bajo la licencia **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.  
+Puedes usarlo, modificarlo y compartirlo libremente, siempre que me des crédito y no lo utilices con fines comerciales.
