@@ -1,4 +1,4 @@
-# Soporte TI Profesional 2.0 — consola de administración + mantenimiento
+# Soporte TI Profesional — consola de administración + mantenimiento
 
 **Plataforma:** Windows 10/11, Windows PowerShell 5.1. **Cuenta programada:** usuario actual con sesión iniciada. **Zona horaria:** la del equipo. **Modo predeterminado:** menú interactivo, sin borrados automáticos.
 
