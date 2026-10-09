@@ -1,0 +1,63 @@
+📘 Manual de uso – Kit de Soporte TI Automatizado
+1. Archivos necesarios
+Script PowerShell: mantenimiento_profesional.ps1
+
+Guardar en la carpeta: Documentos del usuario.
+
+Archivo BAT: configurar_mantenimiento.bat
+
+Guardar en cualquier carpeta (ej. Escritorio).
+
+2. Ejecución inicial
+Abrir el .bat como administrador (clic derecho → Ejecutar como administrador).
+
+El asistente mostrará un menú de configuración:
+
+Frecuencia: Diario, Semanal o Mensual.
+
+Hora exacta: ingresar en formato 24h (ejemplo: 08:00).
+
+Cuenta de ejecución:
+
+Usuario actual: recomendado, acceso a Documentos y logs.
+
+SYSTEM: máxima autoridad, pero sin acceso a carpetas personales.
+
+Confirmar la configuración.
+
+El .bat creará la tarea en el Programador de tareas automáticamente.
+
+3. Ejecución automática
+Cada vez que llegue la hora configurada, se abrirá el menú interactivo del script.
+
+El técnico podrá elegir qué acciones ejecutar:
+
+Limpieza de temporales, cachés, Prefetch, papelera.
+
+Optimización de disco.
+
+Reparación de archivos del sistema (SFC).
+
+Corrección de errores de disco (CHKDSK).
+
+Reinicio de servicios críticos (Windows Update, BITS).
+
+O bien ejecutar todas las acciones en un solo paso.
+
+4. Logs y reportes
+Al finalizar, se generan automáticamente:
+
+Mantenimiento_Log.txt → registro plano para auditoría rápida.
+
+Mantenimiento_Log.html → reporte visual con tabla (abrir en navegador).
+
+Ambos se guardan en la carpeta Documentos.
+
+5. Buenas prácticas de soporte
+Ejecutar el menú completo al menos una vez por semana.
+
+Usar SFC y CHKDSK cuando haya síntomas de corrupción o errores de disco.
+
+Revisar los logs HTML para confirmar qué acciones se realizaron y cuándo.
+
+Si se usa la cuenta SYSTEM, mover el script a una carpeta accesible por esa cuenta (ej. C:\Scripts).
